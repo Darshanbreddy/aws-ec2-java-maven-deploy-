@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.formatOnSave": true,
+    "remote.SSH.remotePlatform": {
+        "ec2-13-203-229-64.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-3-110-136-14.ap-south-1.compute.amazonaws.com": "linux"
+    }
+}

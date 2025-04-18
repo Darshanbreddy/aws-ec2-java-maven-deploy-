@@ -1,0 +1,43 @@
+2025-04-18 03:04:53.688 [info] Can't use the Electron fetcher in this environment.
+2025-04-18 03:04:53.688 [info] Using the Node fetch fetcher.
+2025-04-18 03:04:53.688 [info] Initializing Git extension service.
+2025-04-18 03:04:53.688 [info] Successfully activated the vscode.git extension.
+2025-04-18 03:04:53.688 [info] Enablement state of the vscode.git extension: false.
+2025-04-18 03:04:55.215 [info] Logged in as Darshanbreddy
+2025-04-18 03:04:55.611 [warning] Invalid copilot token: missing token: 403 
+2025-04-18 03:04:55.614 [error] Error: No access to GitHub Copilot found. You are currently logged in as Darshanbreddy.
+    at lT._authShowWarnings (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54999)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at lT.getCopilotToken (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54029)
+    at U5.getCopilotToken (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:3590)
+    at yB.waitForChatEnabled (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:441:17603)
+    at yB.run (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:441:17487)
+    at nk.askToUpgradeAuthPermissions (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:441:16858): Failed to get copilot token
+2025-04-18 03:04:55.614 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as Darshanbreddy."
+2025-04-18 03:04:55.614 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-18 03:04:55.614 [error] Error: No access to GitHub Copilot found. You are currently logged in as Darshanbreddy.
+    at lT._authShowWarnings (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54999)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at lT.getCopilotToken (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54029)
+    at U5.getCopilotToken (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:3590)
+    at Jk._getAuthSession (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:3082)
+    at Object.o [as task] (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:738)
+    at kp._processQueue (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:474:3192971)
+2025-04-18 03:04:55.614 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-04-18 03:04:55.614 [error] Error: No access to GitHub Copilot found. You are currently logged in as Darshanbreddy.
+    at lT._authShowWarnings (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54999)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at lT.getCopilotToken (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:480:54029)
+    at U5.getCopilotToken (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:3590)
+    at Jk._getAuthSession (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:3082)
+    at t (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:2545)
+    at Jk._registerEmbeddings (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:479:3044)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at $b.waitForActivationBlockers (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:423:2191)
+    at /home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:2334:5536
+    at ioo (/home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:2334:5349)
+    at cw.n (file:///home/ec2-user/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+    at cw.m (file:///home/ec2-user/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+    at cw.l (file:///home/ec2-user/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)
+2025-04-18 03:04:55.614 [info] activationBlocker from 'languageModelAccess' took for 1166ms

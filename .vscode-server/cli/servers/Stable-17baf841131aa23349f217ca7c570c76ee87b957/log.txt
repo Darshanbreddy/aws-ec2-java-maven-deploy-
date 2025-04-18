@@ -1,0 +1,76 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-8cf57415-6c2d-491a-b88b-f864d45df696
+Extension host agent listening on /tmp/code-8cf57415-6c2d-491a-b88b-f864d45df696
+
+[03:03:22] 
+
+
+
+
+[03:03:22] Extension host agent started.
+[03:03:22] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+[03:03:22] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+[03:03:22] [<unknown>][e9d3531f][ExtensionHostConnection] New connection established.
+[03:03:22] [<unknown>][f980f517][ManagementConnection] New connection established.
+[03:03:23] [<unknown>][e9d3531f][ExtensionHostConnection] <27521> Launched Extension Host Process.
+[03:03:25] Getting Manifest... github.copilot-chat
+[03:03:26] Getting Manifest... github.copilot
+[03:03:26] Installing extension: github.copilot-chat {
+  installPreReleaseVersion: false,
+  donotIncludePackAndDependencies: true,
+  donotVerifySignature: false,
+  context: { clientTargetPlatform: 'win32-x64' },
+  isApplicationScoped: false,
+  profileLocation: gr {
+    scheme: 'file',
+    authority: '',
+    path: '/home/ec2-user/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/ec2-user/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/ec2-user/.vscode-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.99.3', date: '2025-04-15T23:18:46.076Z' }
+}
+[03:03:26] Installing the extension without checking dependencies and pack github.copilot-chat
+[03:03:26] Installing extension: github.copilot {
+  installPreReleaseVersion: false,
+  donotIncludePackAndDependencies: true,
+  donotVerifySignature: false,
+  context: { clientTargetPlatform: 'win32-x64' },
+  isApplicationScoped: false,
+  profileLocation: gr {
+    scheme: 'file',
+    authority: '',
+    path: '/home/ec2-user/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/ec2-user/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/ec2-user/.vscode-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.99.3', date: '2025-04-15T23:18:46.076Z' }
+}
+[03:03:26] Installing the extension without checking dependencies and pack github.copilot
+[03:03:28] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1973ms.
+[03:03:29] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5: github.copilot-chat
+[03:03:29] Renamed to /home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5
+[03:03:29] Extension installed successfully: github.copilot-chat file:///home/ec2-user/.vscode-server/extensions/extensions.json
+[03:03:29] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 2547ms.
+[03:03:30] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/github.copilot-1.303.0: github.copilot
+[03:03:30] Renamed to /home/ec2-user/.vscode-server/extensions/github.copilot-1.303.0
+[03:03:30] Extension installed successfully: github.copilot file:///home/ec2-user/.vscode-server/extensions/extensions.json
+[03:04:46] [<unknown>][f980f517][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:04:46] [<unknown>][e9d3531f][ExtensionHostConnection] <27521> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[03:04:46] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[03:04:46] Last EH closed, waiting before shutting down
+[03:04:49] [<unknown>][01fa761b][ExtensionHostConnection] New connection established.
+[03:04:49] [<unknown>][fc472163][ManagementConnection] New connection established.
+[03:04:49] [<unknown>][01fa761b][ExtensionHostConnection] <27731> Launched Extension Host Process.

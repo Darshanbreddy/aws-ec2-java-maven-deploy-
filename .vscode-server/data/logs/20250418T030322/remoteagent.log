@@ -1,0 +1,36 @@
+2025-04-18 03:03:22.786 [info] 
+
+
+
+
+2025-04-18 03:03:22.798 [info] Extension host agent started.
+2025-04-18 03:03:22.848 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2025-04-18 03:03:22.870 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2025-04-18 03:03:22.893 [info] [<unknown>][e9d3531f][ExtensionHostConnection] New connection established.
+2025-04-18 03:03:22.930 [info] [<unknown>][f980f517][ManagementConnection] New connection established.
+2025-04-18 03:03:23.162 [info] [<unknown>][e9d3531f][ExtensionHostConnection] <27521> Launched Extension Host Process.
+2025-04-18 03:03:25.899 [info] Getting Manifest... github.copilot-chat
+2025-04-18 03:03:26.120 [info] Getting Manifest... github.copilot
+2025-04-18 03:03:26.166 [info] Installing extension: github.copilot-chat {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-04-18 03:03:26.168 [info] Installing the extension without checking dependencies and pack github.copilot-chat
+2025-04-18 03:03:26.374 [info] Installing extension: github.copilot {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-04-18 03:03:26.374 [info] Installing the extension without checking dependencies and pack github.copilot
+2025-04-18 03:03:28.614 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1973ms.
+2025-04-18 03:03:29.344 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5: github.copilot-chat
+2025-04-18 03:03:29.366 [info] Renamed to /home/ec2-user/.vscode-server/extensions/github.copilot-chat-0.26.5
+2025-04-18 03:03:29.397 [info] Extension installed successfully: github.copilot-chat file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2025-04-18 03:03:29.445 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 2547ms.
+2025-04-18 03:03:30.264 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/github.copilot-1.303.0: github.copilot
+2025-04-18 03:03:30.325 [info] Renamed to /home/ec2-user/.vscode-server/extensions/github.copilot-1.303.0
+2025-04-18 03:03:30.362 [info] Extension installed successfully: github.copilot file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2025-04-18 03:04:46.483 [info] [<unknown>][f980f517][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-18 03:04:46.567 [info] [<unknown>][e9d3531f][ExtensionHostConnection] <27521> Extension Host Process exited with code: 0, signal: null.
+2025-04-18 03:04:46.568 [info] Cancelling previous shutdown timeout
+2025-04-18 03:04:46.568 [info] Last EH closed, waiting before shutting down
+2025-04-18 03:04:49.076 [info] [<unknown>][01fa761b][ExtensionHostConnection] New connection established.
+2025-04-18 03:04:49.077 [info] [<unknown>][fc472163][ManagementConnection] New connection established.
+2025-04-18 03:04:49.081 [info] [<unknown>][01fa761b][ExtensionHostConnection] <27731> Launched Extension Host Process.
+2025-04-18 03:09:46.591 [info] New EH opened, aborting shutdown
+2025-04-18 03:09:46.609 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/out/server-main.js:183:1060)
+    at process.emit (node:events:530:35)
